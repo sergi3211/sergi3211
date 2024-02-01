@@ -1,0 +1,104 @@
+
+header {
+   text-align: center;
+   background-color: rgb(147, 179, 141);
+   padding: 10px;
+   font-family:sans-serif ;
+   width: 50%;
+   margin:auto;
+}
+
+body {
+   background-color: rgb(78, 114, 90);
+   
+}
+
+.todo {
+   display: flex;
+   padding: 6%;
+}
+
+.img {
+   display: flex;
+   padding: 15px;
+   text-align: center;
+   margin:auto;
+   background-color: rgb(147, 179, 141);
+   gap: 2%;
+   width: 983px
+}
+
+.turitmo {
+   background-color: rgb(116, 98, 76);
+   font-family:sans-serif;
+   padding: 7px;
+}
+   
+.turitmo a {
+     cursor: pointer;
+     text-decoration: none;
+     color: black;
+}
+.turitmo img{
+   transition: 0.5s;
+   object-fit: cover;
+}
+.turitmo img:hover {
+   transform: scale(1.1);
+}
+.am {
+   background-color: rgb(200, 202, 67);
+   font-family:sans-serif;
+   padding: 7px;
+}
+
+.am a{
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+}
+.am img{
+   transition: 0.5s;
+   object-fit: cover;
+}
+.am img:hover {
+   transform: scale(1.1);
+}
+
+.flores {
+   background-color:rgb(141, 153, 108);
+   font-family:sans-serif;
+   padding: 7px;
+}
+.flores a{
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+}
+.flores img{
+   transition: 0.5s;
+   object-fit: cover;
+}
+.flores img:hover {
+   transform: scale(1.1);
+}
+
+.todo2 {
+   display: flex;
+}
+
+.cancion {
+   background-color:rgb(141, 153, 108);
+   margin-left: 60%;
+   text-align: center;
+   width: 17%;
+}
+
+.texto {
+   color: white;
+}
+
+.letra {
+   background-color: rgb(147, 179, 141);
+   padding: 15px 25px;
+}
